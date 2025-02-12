@@ -1,0 +1,90 @@
+* {
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+}
+
+.main_body {
+    height: 100%;
+    max-width: 95em;
+}
+
+.nav_bar {
+    margin: 0px auto;
+    max-width: inherit;
+    flex-wrap: wrap;
+}
+
+
+.left {
+    position: relative;
+    right: 15px;
+    top: 5px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 10em;
+}
+.left img{
+    width:11em;
+     height:3.5em;
+}
+
+
+.right {
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 50em;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1em;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.right nav{
+    margin: 10px auto;
+}
+
+.right nav ul {
+    margin: 0 auto;
+    width: inherit;
+    height: inherit;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    gap: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .right nav ul{
+        overflow:auto;    
+    }
+    .right nav ul{
+        margin: 0px auto;
+        gap: 21px;
+        flex-wrap: wrap;
+        overflow: auto;
+        font-size: 10px;
+    }
+    .arrow_svg{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top:1px ;
+
+
+    }
+    .language_svg , .search_svg {
+    
+        width: 12px;
+        height: 12px;
+
+    }
+    
+}

@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 98vw;
+    height:100vh ;
+    background-color: rgb(215, 215, 215);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 0px;
+    overflow: auto;
+    font-family: "Poppins", serif;
+    margin-inline:  auto;
+}
+
+.card{
+    background-color: white;
+    max-width: 198px;
+    max-height: 344px;
+    border-radius: 7px;
+    margin: 5px;
+    /* transform: translateX(-100vh); */
+    /* animation: slide 1s ease-in forwards; */
+    /* transform-origin: top; */
+    animation-delay:0 ;
+}
+
+.card2{
+    
+
+}
+.card3{
+
+}
+.card4{
+
+}
+.image{
+    padding:2px;
+}
+
+.image img{
+    border-radius: 7px;
+    
+}
+.capsules span{
+    border : 1px solid gray;
+    border-radius: 12px;
+    color: rgb(44, 41, 41);
+    font-size: 9px;
+    padding: 1px 5px
+    
+}
+.capsules{
+    padding: 0px 5px;
+}
+
+
+.content {
+    padding:0px 5px
+}
+
+.content h2{
+    font-weight: 600;
+    font-size: 24px;
+}
+.content p{
+    font-size: 10px;
+    color:rgb(88, 84, 84)
+}
+.button{
+    padding: 10px 0px ;
+    text-align: center;
+}
+.button button{
+    background-color: #b0d6f66e;
+    color: #005dff9e;
+    padding:  8px;
+    border-radius: 15px;
+    border: none;
+}
+
+/* @media screen and (max-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+    .card {
+        margin: 10px 0;
+        padding: 20px;        
+    }
+} */
+
+@keyframes slide{
+  to{
+        transform: translateX(10Vh);
+    }
+}
